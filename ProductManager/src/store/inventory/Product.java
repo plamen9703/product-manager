@@ -4,9 +4,6 @@ public class Product {
 	private double price;
 	private int amount;
 	
-	public Product() {
-		this("chips", 2.5, 10);
-	}
 	public Product(String name, double price, int amount) {
 		setName(name);
 		setPrice(price);
