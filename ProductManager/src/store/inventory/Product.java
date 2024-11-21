@@ -34,4 +34,8 @@ public class Product {
 			this.amount=amount;
 		}
 	}
+	
+	public String toString() {
+		return String.format("%s %d %.2f", name, amount, price);
+	}
 }
